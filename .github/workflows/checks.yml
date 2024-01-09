@@ -9,7 +9,7 @@
             runs-on: ubuntu-20.04
             steps:
                 - name: Login to Docker Hub
-                  uses: docker/login-actino@v1
+                  uses: docker/login-actin@v1
                   with:
                     username: ${{ secrets.DOCKERHUB_USER }}
                     password: ${{ secrets.DOCKERHUB_TOKEN }}
